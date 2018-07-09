@@ -164,12 +164,12 @@ input {
     padding: 5px;
 }
 textarea {
-    width: 682px;
+    width: 654px;
     height: 125px;
 }
 
 #Name, #Email {
-    padding-right: 550px;
+    padding-right: 520px;
 }
 
 #Message {
@@ -204,8 +204,8 @@ img {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding: 14px 56px;
-    top: 125px;
+    padding: 14px 52px;
+    top: 117px;
 } 
     /* top: 125px; */
 
@@ -219,8 +219,8 @@ img {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding: 14px 49px;
-    top: 323px; 
+    padding: 14px 45px;
+    top: 312px; 
 }
 
 
@@ -230,9 +230,9 @@ img {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding: 14px 26px;
-    top: 521px;
-    left: 0px;
+    padding: 14px 13px;
+    top: 506px;
+    left: 15px;
 } 
 
 
@@ -242,9 +242,9 @@ img {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center; 
-    padding: 14px 52px;
-    top: 125px;
-    right: 283px;
+    padding: 13px 48px;
+    top: 119px;
+    right: 31px;
     /* margin-top: 110px;
     margin-right: 115px; */
 } 
@@ -255,9 +255,9 @@ img {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding: 14px 25px;
-    left: 194px;
-    bottom: 29px;
+    padding: 14px 15px;
+    left: 210px;
+    bottom: 27px;
 
     
     /* margin-top: 110px;
@@ -291,7 +291,14 @@ footer {
 
 }
 
-/* @media screen and (max-width:768px) {
+@media screen and (max-width: 980px) {
+
+#images {
+    width: 60%;
+}    
+}
+
+ @media screen and (max-width:768px) {
     #main {
 
         width: 90%;
@@ -299,18 +306,39 @@ footer {
     
     }
 
+    #form {
+        width: 90%;
+    }
+
+    #Name, #Email {
+        padding-right: 53%;
+    }
+
+    textarea {
+        width: 85%;
+    }
+
     .myname {
         margin:-8px 30px;
+    }
+
+    #images {
+        width: 90%;
+        height: 80%;
     }
 }
 
 @media screen and (max-width:640) {
 
     #main {
-        width: 95%
+        width: 95%;
     }
     .myname {
         margin:-8px 20px;
     }
 
-}  */
+    #top-right {
+        right: 127px;
+    }
+
+}  
