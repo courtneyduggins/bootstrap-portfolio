@@ -13,7 +13,7 @@ body {
     border-width: 2px;
     background-color: #ffffff;
     position: relative;
-    height: 96px;
+    height: 72.15px;
     margin-top: -10px;
     margin-bottom: 10px;
     margin-right: -10px;
@@ -204,8 +204,8 @@ img {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding: 14px 52px;
-    top: 117px;
+    padding: 8px 9.5px 8px 18px;
+    top: 105px;
 } 
     /* top: 125px; */
 
@@ -219,8 +219,8 @@ img {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding: 14px 45px;
-    top: 312px; 
+    padding: 14px 30.5px;
+    top: 288px; 
 }
 
 
@@ -242,8 +242,8 @@ img {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center; 
-    padding: 13px 48px;
-    top: 119px;
+    padding: 8px 50px 8px 30.5px;
+    top: 105px;
     right: 31px;
     /* margin-top: 110px;
     margin-right: 115px; */
@@ -280,11 +280,11 @@ footer {
     border-style: solid;
     border-width: 5px;
     border-color: #4aaaa5;
-    height: 75px;
+    height: 90px;
     border-bottom: none;
     border-right: none;
     border-left: none;
-    margin-top: 90px;
+    margin-top: 132px;
     margin-bottom: 0px;
     margin-left: -10px;
     margin-right: -10px;
