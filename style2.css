@@ -1,0 +1,8 @@
+body {
+    background-image: url(images/intersection.png);
+    background-repeat: repeat;
+}
+
+.navigation {
+    background-color: yellowgreen;
+}

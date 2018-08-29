@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(images/light-grey-terrazzo.png);
+    background-image: url(images/intersection.png);
     background-repeat: repeat;
 }
 
@@ -11,11 +11,11 @@ body {
     border-bottom: solid;
     border-bottom-color: #cccccc;
     border-width: 2px;
-    background-color: #ffffff;
+    /* background-color: #cccccc; */
     position: relative;
     height: 72.15px;
     margin-top: -10px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     margin-right: -10px;
     margin-left: -10px;
     
@@ -23,7 +23,7 @@ body {
 
 .myname { 
     float: left;
-    background-color: #4aaaa5;
+    background-color: #4aaaa5;;
     /* position: absolute; */
     margin:-8px 50px;
     /* color: #ffffff; */
@@ -36,7 +36,7 @@ body {
 }
 
 .myname .navbar-brand li a {
-    color: white;
+    color: #cccccc;
 }
     
     
@@ -59,10 +59,11 @@ body {
     margin-right: 270px;
 }
 
-.my-navbar {
+.my-navbar, .bar {
     text-decoration: none;
     color: #777777;
     font-size: 14px;
+    /* background-color:rgb(255, 255, 255) */
 } 
  a:visited {
     text-decoration: none;
@@ -96,7 +97,7 @@ body {
     overflow: auto;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
     color: #4aaaa5;
     padding:20px;
     margin-top: -10px;
@@ -153,6 +154,13 @@ p {
     overflow: auto;
 }
 
+.myInfo {
+    float: right;
+    bottom: 325px;
+    margin-left: -50px;
+    
+}
+
 h3, h4 {
     font-size: 18px;
     margin-left: -10px
@@ -177,7 +185,7 @@ textarea {
 }
 
 #submit {
-    background-color: #4aaaa5;
+    background-color: #4aaaa5;;
     color: #ffffff;
     padding: 5px 10px;
     border: 0px;
